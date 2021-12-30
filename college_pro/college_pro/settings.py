@@ -76,8 +76,11 @@ WSGI_APPLICATION = 'college_pro.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'lfhoolcy',
+        'USER': 'lfhoolcy',
+        'PASSWORD': 'DfNzMl4xQhtzI2QR1ReQ2VPA7Fy0-k2x',
+        'HOST': 'castor.db.elephantsql.com'
     }
 }
 
